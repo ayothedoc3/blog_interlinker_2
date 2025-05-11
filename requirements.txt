@@ -1,0 +1,7 @@
+streamlit
+google-generativeai
+scikit-learn
+numpy
+requests
+beautifulsoup4
+nltk
