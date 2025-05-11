@@ -14,8 +14,10 @@ import os
 # Download nltk sentence tokenizer data if not already present
 try:
     nltk.data.find('tokenizers/punkt')
+    nltk.data.find('tokenizers/punkt_tab')
 except LookupError:
     nltk.download('punkt')
+    nltk.download('punkt_tab')
 
 # --- Core Functions ---
 
