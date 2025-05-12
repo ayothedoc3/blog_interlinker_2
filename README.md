@@ -108,7 +108,19 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Live Demo
 
-Try it out at: [Streamlit Cloud URL]
+Try it out at: https://blog-interlinker.streamlit.app
+
+Note: You'll need to provide your own Google AI Studio API key to use the application. Get one at [Google AI Studio](https://aistudio.google.com/app/apikey).
+
+## Deployment
+
+To deploy your own instance on Streamlit Cloud:
+
+1. Fork this repository
+2. Visit [Streamlit Cloud](https://share.streamlit.io)
+3. Click "New app" and select your forked repository
+4. Deploy from the 'main' branch
+5. No additional secrets or environment variables needed - users provide their own API key
 
 ## Support
 
