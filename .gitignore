@@ -33,8 +33,9 @@ env/
 *.swo
 .DS_Store
 
-# Streamlit
-.streamlit/
+# Streamlit (allow config.toml)
+.streamlit/secrets.toml
+.streamlit/cache/
 
 # Logs
 *.log
